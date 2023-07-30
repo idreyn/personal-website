@@ -67,7 +67,7 @@ h2 {
     overflow: none;
     background: url(images/thief.png);
     background-attachment: fixed;
-    background-size: 50%;
+    background-size: auto;
     background-position: center;
     color: white;
     font-size: 2em;
