@@ -142,12 +142,25 @@ li:not(:last-child) {
 }
 
 @media screen and (max-width: 650px) {
-    h2 {
-        border-radius: 10px;
-    }
-
     .links {
         gap: 15px;
+    }
+
+    h2 {
+        background-attachment: initial;
+        background-size: cover;
+    }
+
+    .currently h2 {
+        background-position: 0px -25px;
+    }
+    
+    .previously h2 {
+        background-position: 0px 170px;
+    }
+    
+    .variously h2 {
+        background-position: 0px 220px;
     }
 }
 
