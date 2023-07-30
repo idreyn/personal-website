@@ -145,27 +145,25 @@ li:not(:last-child) {
     .links {
         gap: 15px;
     }
+}
 
+
+@media (any-pointer: coarse),
+(prefers-reduced-motion: reduce) {
     h2 {
-        background-attachment: initial;
+        background-attachment: scroll;
         background-size: cover;
     }
 
     .currently h2 {
         background-position: 0px -25px;
     }
-    
+
     .previously h2 {
         background-position: 0px 130px;
     }
-    
+
     .variously h2 {
         background-position: 0px 220px;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    h2 {
-        background-attachment: scroll;
     }
 }
